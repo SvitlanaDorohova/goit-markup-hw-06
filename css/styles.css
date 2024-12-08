@@ -795,3 +795,60 @@ input[type='checkbox']:focus-visible
     color: #4d5ae5;
 }
 
+@media only screen and (min-width: 768px) {
+    .container {
+      max-width: 736px;
+      padding: 0 16px;
+    }
+}
+  
+@media only screen and (min-width: 1158px) {
+    .container {
+      max-width: 1128px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-list{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+     
+    }
+}
+
+  /*
+@media only screen and (min-width: 1158px) {
+  .header-list {
+    max-width: 1128px;
+    display: flex;
+    gap: 24px; 
+  }
+}
+*/
+
+@media only screen and (min-width: 768px) {
+    .contact-list {
+     display: flex;
+     align-items: center;
+     gap: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .team-list {
+     max-width: 736px;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 64px 24px;
+         
+    }
+}
+      
+@media only screen and (min-width: 1158px) {
+   .team-list {
+     max-width: 1128px;
+     display: flex;
+     gap: 24px; 
+    }
+}
